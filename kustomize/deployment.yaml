@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: helloworld
-        image: denishsrijan/helloworld:b4.20230101.204339 # {"$imagepolicy": "flux-system:helloworld"}
+        image: denishsrijan/helloworld:b1.20230101.205646 # {"$imagepolicy": "flux-system:helloworld"}
