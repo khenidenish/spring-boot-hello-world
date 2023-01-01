@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
-metadata: 
-  name: helloworld 
+metadata:
+  name: helloworld
   namespace: app
-  labels: 
+  labels:
     app: helloworld
 spec:
   selector:
@@ -16,5 +16,4 @@ spec:
     spec:
       containers:
       - name: helloworld
-        image: denishsrijan/helloworld:latest  # {"$imagepolicy": "flux-system:helloworld"}
-        
+        image: denishsrijan/helloworld:b9.20230101.194904 # {"$imagepolicy": "flux-system:helloworld"}
