@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: helloworld-app-service
+  namespace: app
 spec:
 #  externalTrafficPolicy: Local
   type: LoadBalancer        # Exposes the service via the cloud provider's load balancer.
