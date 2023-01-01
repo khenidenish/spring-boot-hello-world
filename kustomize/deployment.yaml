@@ -16,5 +16,5 @@ spec:
     spec:
       containers:
       - name: helloworld
-        image: denishsrijan/helloworld
+        image: denishsrijan/helloworld:latest  # {"$imagepolicy": "flux-system:podinfo"}
         
